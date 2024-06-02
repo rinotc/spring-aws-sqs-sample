@@ -1,3 +1,8 @@
 spring:
   application:
     name: spring-aws-sqs-sample
+  cloud:
+    aws:
+      sqs:
+        endpoint: http://localhost:4566
+        region: ap-northeast-1
