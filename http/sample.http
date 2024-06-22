@@ -1,0 +1,15 @@
+### send messaage
+POST http://localhost:8080/send-message
+Content-Type: application/json
+
+{
+  "message": "Hello, World!"
+}
+
+### send object message
+POST http://localhost:8080/send-object-message
+Content-Type: application/json
+
+{
+  "message": "Hello Object Message!"
+}
